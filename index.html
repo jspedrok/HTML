@@ -1,108 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minha Página Incrível</title>
+        <link rel="stylesheet" href="style.css">
+        <title>Meu Wireframe</title>
     </head>
     <body>
-
         <header>
-            <h1>Bem Vindo à minha Página!</h1>
-            <p>Explore o incrível mundo que criamos para você!</p>
-        </header>
-        <main> <br>
-            <img src="./1703356083148 (1).jfif" alt="Lenon Yuri Instrutor do Senai">
-            <form action="/processar-login" method="post">
-                <label for="usuario">Usuário:</label>index.html
-                <input type="text" id="usuario" name="usuario" required>
-
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-
-                <button type="submit">Entrar</button> <input type="reset" value="limpar">
-                <label for="comentario">comentario</label>
-                <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
-                <input type="checkbox" id="receber-noticias" name= "receber-noticias" checked>
-                <label for= "receber-noticias">Receber Notícias</label>
-                <input type="radio" id="masculino" name= "genero" value="masculino" checked>
-                <label for= "masculino">Masculino</label>
-                <input type="radio" id="feminino" name= "genero" value="feminino" checked>
-                <label for= "feminino">Feminino</label> <br
-                <label for="pais">Selecione seu país:</label>
-                <select id="pais" name="pais">
-                    <option value="prasil">Brasil</option>
-                    <option value="portugal">Portugal</option>
-                    <option value="eua">Estados Unidos</option>
-                    </select>
-                    
-                 
-                </form>
-                 <ul>
-                   <li><a href="/produtos">Produtos</a></li>
-                   <li><a href="/servicos">Serviços</a></li>
-                   <li><a href="/suporte">Suporte</a></li>
-                   </ul>
-                   <p><strong>Importante:</strong> Preencha todos os campos obrigatórios.</p>
-                   <p><em>Lembre-se de manter sua senha em segredo.</em></p>
-
-                   <ol>
-                    <li>Passo 1</li>
-                    <li>Passo 2</li>
-                    <li>Passo 3</li>
-                   </ol>
-
+            <h1>Meu Site</h1>
+            <nav>
                 <ul>
-                    <li>Animal
-                        <ul>
-                            <li>Mamífero</li>
-                            <li>Réptil</li>
-                            <li>Ave</li>
-                        </ul>
-                        </li>
-                        <li>Planta
-                            <ul>
-                                <li>Florífera</li>
-                                <li>Árvore</li>
-                                <li>Erva</li>
-                            </ul>
-                        </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
+            </nav>
+        </header>
 
-                <p>Esta é uma linha <br>Esta é outra linha</p>
-                <p>Esta é a <mark>parte destacada</mark> do texto</p>
-                <p>Texto da seção 1</p>
-                <hr>
-                <p>Texto da seção 2</p>
-                <p><small>Texto menor</small></p>
-                <p><big>Texto maior</big></p>
-                <blockquote>
-                    <p>"A vida é o que acontece enquanto você está ocupado fazendo outros planos."</p>
-                    <cite>John Lennon</cite>
-                </blockquote>
-                <table>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Idade</th>
-                        <th>País</th>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><a href="/perfil/carlos">Carlos</a></td>
-                        <td>30</td>
-                        <td>Brasil</td>
-                    </tr>
-                    <tr>
-                        <td>Maria</td>
-                        <td>25</td>
-                        <td>Portugal</td>
-                    </tr>
-                </table>
-                
+        <section>
+            <h2>Conteúdo Principal</h2>
+            <p>Bem vindo ao meu site! Este é um exemplo de wireframe.</p>
+            <button id= "btnAction">Ação</button>
+            <button id= "btnMenu">Menu</button>
+            <div class="menu-container">
+                <h3>Menu</h3>
+                <ul class="menu-list">
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </div>
 
-        </main>
+            <div class="form-container">
+                <h3>Formulário de contato</h3>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        
+
         <footer>
-            <p>&copy; 2024 Minha Página Incrível. Todos os direitos
-                reservados.</p>
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
